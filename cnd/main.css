@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Rubik+Distressed&display=swap');
+/* font-family: 'Rubik Distressed', cursive; */
+/* font-family: 'Quicksand', sans-serif; */
+h1{
+    font-family: 'Rubik Distressed', cursive;
+}
+p{
+    font-family: 'Quicksand', sans-serif;
+}

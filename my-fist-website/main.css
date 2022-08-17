@@ -136,3 +136,47 @@ MAMBER CSS
 .mamber-single:hover img{
     transform: scale(1.1);
 }
+
+/* ==========================
+SERVICES AREA
+=========================== */
+.services-area{
+    padding-bottom: 100px;
+}
+.services-area h2{
+    margin: 100px 0 70px 0;
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.services-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.services-blok{
+    color: #fff;
+    border-radius: 5px;
+    padding: 30px;
+    width: 300px;
+    background-color: rgb(9, 153, 219);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.services-blok i{
+    font-size: 50px;
+}
+.services-blok h2{
+    margin-top: 20px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.services-blok:hover{
+    background-color:rgb(9, 137, 196) ;
+    box-shadow: 4px 4px 20px 0px grey;
+    transform: scale(1.02);
+}
