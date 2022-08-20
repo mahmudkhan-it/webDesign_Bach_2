@@ -13,10 +13,25 @@ a{
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 /* Common Css */
 
 /* Extra Css */
-
+.scrool-up{
+    z-index: 1111111;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: crimson;
+    
+}
+.scrool-up a i{
+    font-size: 30px;
+    color: #fff;
+    padding: 20px;
+}
 /* ==============
 HEADER CSS
 ================ */
@@ -179,4 +194,74 @@ SERVICES AREA
     background-color:rgb(9, 137, 196) ;
     box-shadow: 4px 4px 20px 0px grey;
     transform: scale(1.02);
+
+}
+/* ABOUT US */
+.about-us{
+    background-color: #f1f1f1;
+    padding: 100px 0;
+    text-align: center;
+}
+.about-us h2{
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-us p{
+    width: 700px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 1px;
+}
+
+/* CONTACT SECTION */
+.contact-area{
+    padding: 100px 0;
+    text-align: center;
+}
+.contact-area h2{
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize
+}
+.contact-area form{}
+.from-box-1{
+    display: flex;
+    justify-content: center;
+}
+.contact-area label{
+    display: block;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.contact-area input{
+    display: block;
+    font-size: 18px;
+    padding: 7px 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 18px grey;
+}
+.name{
+    margin-right: 10px;
+}
+.contact-area input:focus{
+    outline: none;
+}
+.contact-area textarea{
+    height: 200px;
+    width: 600px;
+    resize:none;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.contact-area button{
+    background-color: chocolate;
+    padding: 8px 20px;
+    border: none;
+    display: block;
+    margin: 0 auto;
 }
